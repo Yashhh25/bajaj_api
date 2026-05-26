@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000";
+const API = "https://bajaj-api-delta-one.vercel.app";
 
 export default function App() {
   const [tickets, setTickets] = useState([]);
